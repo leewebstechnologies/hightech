@@ -49,8 +49,8 @@
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
                             <a href="/" class="nav-item nav-link">Home</a>
                             <a href="about.php" class="nav-item nav-link">About</a>
-                            <a href="service.php" class="nav-item nav-link">Services</a>
-                            <a href="project.php" class="nav-item nav-link">Projects</a>
+                            <a href="services.php" class="nav-item nav-link">Services</a>
+                            <a href="projects.php" class="nav-item nav-link">Projects</a>
                             <a href="blog.php" class="nav-item nav-link">Blog</a>                          
                             <a href="contact.php" class="nav-item nav-link">Contact</a>
                         </div>

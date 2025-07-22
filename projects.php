@@ -36,7 +36,7 @@
         <!-- Spinner End -->
 
         <!-- Navbar Start -->
-        <div class="container-fluid bg-primary fixed-top">
+        <div class="container-fluid bg-primary">
             <div class="container">
                 <nav class="navbar navbar-dark navbar-expand-lg py-0">
                     <a href="index.html" class="navbar-brand">
@@ -47,12 +47,12 @@
                     </button>
                     <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="index.html" class="nav-item nav-link">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link active">Services</a>
-                            <a href="project.html" class="nav-item nav-link">Projects</a>
-                            <a href="blog.html" class="nav-item nav-link">Blog</a>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="/" class="nav-item nav-link">Home</a>
+                            <a href="about.php" class="nav-item nav-link">About</a>
+                            <a href="services.php" class="nav-item nav-link">Services</a>
+                            <a href="projects.php" class="nav-item nav-link active">Projects</a>
+                            <a href="blog.php" class="nav-item nav-link">Blog</a>
+                            <a href="contact.php" class="nav-item nav-link">Contact</a>
                         </div>
                     </div>
                     <div class="d-none d-xl-flex flex-shirink-0">
@@ -81,12 +81,12 @@
         <!-- Page Header Start -->
         <div class="container-fluid page-header py-5">
             <div class="container text-center py-5">
-                <h1 class="display-2 text-white mb-4 animated slideInDown">Services</h1>
+                <h1 class="display-2 text-white mb-4 animated slideInDown">Projects</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item" aria-current="page">Services</li>
+                        <li class="breadcrumb-item" aria-current="page">Projects</li>
                     </ol>
                 </nav>
             </div>
@@ -128,83 +128,88 @@
         <!-- Fact End -->
 
 
-        <!-- Services Start -->
-        <div class="container-fluid services py-5 my-5">
+        <!-- Project Start -->
+        <div class="container-fluid project py-5 my-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary">Our Services</h5>
-                    <h1>Services Built Specifically For Your Business</h1>
+                    <h5 class="text-primary">Our Project</h5>
+                    <h1>Our Recently Completed Projects</h1>
                 </div>
-                <div class="row g-5 services-inner">
+                <div class="row g-5">
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-code fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Web Design</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Web design</h4>
+                                        <p class="m-0 text-white">Web Analysis</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-file-code fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Web Development</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Cyber Security</h4>
+                                        <p class="m-0 text-white">Cyber Security Core</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">UI/UX Design</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Mobile Info</h4>
+                                        <p class="m-0 text-white">Upcomming Phone</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Web Cecurity</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-4.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Web Development</h4>
+                                        <p class="m-0 text-white">Web Analysis</p>
+                                    </a>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Digital Marketing</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-5.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Digital Marketing</h4>
+                                        <p class="m-0 text-white">Marketing Analysis</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-laptop fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Programming</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-6.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">keyword Research</h4>
+                                        <p class="m-0 text-white">keyword Analysis</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +217,7 @@
                 </div>
             </div>
         </div>
-        <!-- Services End -->
+        <!-- Project End -->
 
 
         <!-- Footer Start -->
