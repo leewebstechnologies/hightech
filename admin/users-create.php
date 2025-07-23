@@ -9,6 +9,7 @@
           </h4>
         </div>
         <div class="card-body">
+          <?php echo alertMessage(); ?>
           <form action="code.php" method="POST">
             <div class="row">
               <div class="col-md-6">

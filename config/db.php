@@ -6,7 +6,7 @@ define('DB_NAME', "hightech");
 
 $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-if (!connection) {
+if (!$connection) {
   die("Connection Failed!: ".mysqli_connect_error());
 }
 
